@@ -13,6 +13,7 @@
       </li>
     </ul>
   </div>
+  <footer>copyright-ogiehasan</footer>
 </template>
 <script>
 export default {
@@ -44,15 +45,21 @@ export default {
 };
 </script>
 <style>
+*{
+  background-color: aquamarine;
+}
 .todo-list {
   max-width: 500px;
   margin: 0 auto;
   padding: 40px;
   font-size: 1.2rem;
+  background-color: blueviolet;
 }
 
 .todo-list h1 {
   text-align: center;
+  color: azure;
+  background-color: yellowgreen;
 }
 
 .todo-list form {
@@ -64,12 +71,14 @@ export default {
   flex: 1;
   padding: 8px;
   font-size: 1.2rem;
+  background-color: yellowgreen;
 }
 
 .todo-list button[type="submit"] {
   margin-left: 10px;
   padding: 8px;
   font-size: 1.2rem;
+  background-color: blue;
 }
 
 .todo-list ul {
@@ -99,6 +108,10 @@ export default {
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
-  color: red;
+  color: white;
+}
+footer{
+  text-align: center;
+  background-color: yellowgreen;
 }
 </style>
